@@ -24,4 +24,4 @@ Use the following Xorg configuration for keyboard: `Option "XkbOptions" "caps:sw
 
 The layout image is generated using <http://www.keyboard-layout-editor.com>.
 
-![Keyboard layoute](./mics/keyboard-layout.jpg)
+![Keyboard layout](misc/keyboard-layout.jpg)
