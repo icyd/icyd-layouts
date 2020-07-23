@@ -1,0 +1,4 @@
+LIBRARY	ICYD
+
+EXPORTS
+    KbdLayerDescriptor  @1
