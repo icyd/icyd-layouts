@@ -19,3 +19,9 @@ imitate this behaviour with the Linux version, use xkb option `caps:swapescape`.
 Use the following Xorg configuration for keyboard: `Option "XkbOptions" "caps:swapescape,lv3:ralt_switch,compose:102,numpad:shift3,keypad:hex"`
 
 **NOTE**: No compiled yet for MacOs and Windows. BE CAREFUL.
+
+## Keyboard Layout
+
+The layout image is generated using <http://www.keyboard-layout-editor.com>.
+
+![Keyboard layoute](./mics/keyboard-layout.jpg)
