@@ -94,9 +94,9 @@
 	  <key code="19"  output="["/>			<!-- left pinky 1 	-->
 	  <key code="20"  output="{"/>			<!-- left ring 		-->
 	  <key code="21"  output="lparen"/>	    <!-- left middle 	-->
-	  <key code="23"  action="asterisk"/>	<!-- left index 1 	-->
+      <key code="23"  action="+"/>	        <!-- left index 1 	-->
 	  <key code="22"  output="="/>			<!-- left index 2 	-->
-	  <key code="26"  action="+"/>	        <!-- right index 2 	-->
+	  <key code="26"  action="asterisk	    <!-- right index 2 	-->
 	  <key code="28"  output=")"/>			<!-- right index 1 	-->
 	  <key code="25"  output="}"/>			<!-- right middle 	-->
 	  <key code="29"  output="]"/>			<!-- right ring 	-->

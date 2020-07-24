@@ -7,18 +7,27 @@ AltGr, on the vocals keys for Spanish's typists.
 Number are keep on `shift` modifier, but in `QWERTY` order.
 Some symbols are moved in order to have the same bracket/brace/parenthesis on the same fingers, on opposite hands.
 
-The number row is:
-- Shift: ~ 1 2 3 4 5 6 7 8 9 0 % \`
-- Nomod: $ & [ { ( * = + ) } ] ! #
-
 Also semicolon and single quote are swapped, as in normal Dvorak layout.
 
-*NOTE:* In case of Windows layout, it automatically set swap between ESC and
-CAPS_LOCK, also use by default hex keypad with lv5:ralt\_switch by default. To
-imitate this behaviour with the Linux version, use xkb option `caps:swapescape`.
-Use the following Xorg configuration for keyboard: `Option "XkbOptions" "caps:swapescape,lv3:ralt_switch,compose:102,numpad:shift3,keypad:hex"`
+## Linux
 
-**NOTE**: No compiled yet for MacOs and Windows. BE CAREFUL.
+To install use the installer bash script `install.sh`. Simply run:
+
+```bash
+
+    sudo sh install.sh --install
+```
+
+To remove use remove use the `--remove` flag. Recommended options for keyboard:
+`Option "XkbOptions" "caps:swapescape,lv3:ralt_switch,compose:102,numpad:shift3,keypad:hex"`
+
+## Windows
+
+Generated with `Microsoft Keyboard Layout Creator 1.4`, with this software, you can load the file `windows/icyd.klc` and do some modifications, then generate the binary files. To uninstall, remove it from `Apps & features`.
+
+## MacOS
+
+Compiled binary is the old version. **Not yet generated for new version**, take it into consideration.
 
 ## Keyboard Layout
 
