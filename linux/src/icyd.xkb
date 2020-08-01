@@ -58,5 +58,5 @@ xkb_symbols "icyd" {
     key <BKSL> { [ backslash,       bar                                         ] };
 
     // lower row, left side
-    key <AD01> { [ apostrophe,      quotedbl,       dead_acute                  ] };
+    key <AB01> { [ semicolon,       colon,          dead_diaeresis              ] };
 };
