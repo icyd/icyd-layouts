@@ -17,13 +17,13 @@ xkb_symbols "icyd" {
     key <AE03> { [ braceleft,       3,              cent                        ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE04> { [ parenleft,       4,              yen                         ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE05> { [ plus,            5,              EuroSign                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE06> { [ equal,           6,              sterling                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE06> { [ asterisk,        6,              sterling                    ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
 
     // symbols row, right side
-    key <AE07> { [ asterisk,        7                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE08> { [ parenright,      8,              onehalf                     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE09> { [ braceright,      9                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
-    key <AE10> { [ bracketright,    0                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE07> { [ parenright,      7                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE08> { [ bracerenright,   8,              onehalf                     ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE09> { [ bracketright,    9                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
+    key <AE10> { [ equal,           0                                           ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE11> { [ exclam,          percent,        exclamdown                  ], type[Group1] = "FOUR_LEVEL_ALPHABETIC" };
     key <AE12> { [ numbersign,      grave,          dead_grave                  ] };
     key <BKSP> { [ BackSpace                                                    ] };
