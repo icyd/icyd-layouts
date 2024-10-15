@@ -1,6 +1,6 @@
 partial alphanumeric_keys
-xkb_symbols "icyd" {
-    name[Group1] = "English - IcyD Dvorak";
+xkb_symbols "icydvorak" {
+    name[Group1] = "English - IcyDvorak";
 
     // Unmodified, Shift, AltGr, Shift+AltGr
 
