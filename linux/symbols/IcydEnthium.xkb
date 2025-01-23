@@ -45,7 +45,6 @@ xkb_symbols "icydenthium" {
 
     key <CAPS> { [ z,          Z,            ae,               AE ] };
     key <RALT> { [ r,          R,    ediaeresis,       Ediaeresis ] };
-    key <RCTL> { [ Alt_R     ] };
 
-   include "level3(ralt_switch)"
+   include "level3(switch)"
 };
