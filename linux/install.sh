@@ -1,37 +1,16 @@
 #!/bin/bash
+set +x -e
 
-usage() {
-	echo -e "Usage: \n"
-	echo -e "\t-i|--install\tInstall layout"
-	echo -e "\t-r|--remove\tRemove layout"
-}
+# if argument given, normalize and use as root directory
+[ -d "$1" ] && XKB_ROOT=$(readlink -f "$1") || XKB_ROOT=/usr/share/X11/xkb
 
-install() {
-	sh ./src/icyd.install.sh
-	sh ./src/icyd.postinst.sh
-}
+# owner may be given as the second argument, for local installation
+[ -n "$2" ] && OWNER=$2 || OWNER=root
 
-remove() {
-	sh ./src/icyd.prerm.sh
-	sh ./src/icyd.remove.sh
-}
+# find our own location
+CURR_DIR="$(dirname "$(readlink -f "$0")")"
 
-while [[ $# -gt 0 ]]; do
-	key="$1"
-
-	case $key in
-		-i|--install)
-			install
-			shift
-			;;
-		-r|--remove)
-			remove
-			shift
-			;;
-		*)
-			usage
-			shift
-			;;
-	esac
-done
-
+# copy files to the appropriate location
+while IFS= read -r -d '' file; do
+    install -m 644 -o "$OWNER" -g "$OWNER" "$CURR_DIR/$file" "$XKB_ROOT/$file"
+done < <(find symbols types -type f -print0)

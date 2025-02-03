@@ -1,0 +1,50 @@
+partial alphanumeric_keys
+xkb_symbols "icydenthium" {
+
+    include "us(altgr-intl)"
+    name[Group1]= "English - IcydEnthium";
+
+    key <AE11> { [ Escape    ] };
+    key <AE12> { [ Caps_Lock ] };
+
+    key <AD01> { [ b,          B,             b,                B ] };
+    key <AD02> { [ y,          Y,    udiaeresis,       Udiaeresis ] };
+    key <AD03> { [ o,          O,        oacute,           Oacute ] };
+    key <AD04> { [ u,          U,        uacute,           Uacute ] };
+    key <AD05> { [ semicolon,  colon, paragraph,           degree ] };
+    key <AD06> { [ x,          X,            oe,               OE ] };
+    key <AD07> { [ l,          L,        oslash,         Ooblique ] };
+    key <AD08> { [ d,          D,           eth,              ETH ] };
+    key <AD09> { [ w,          W,         aring,            Aring ] };
+    key <AD10> { [ v,          V,    registered,       registered ] };
+    key <AD11> { [ bracketleft,  braceleft,  guillemotleft, leftdoublequotemark ] };
+    key <AD12> { [ bracketright, braceright, guillemotright, rightdoublequotemark ] };
+
+    key <AC01> { [ c,          C,     copyright,             cent ] };
+    key <AC02> { [ i,          I,        iacute,           Iacute ] };
+    key <AC03> { [ e,          E,        eacute,           Eacute ] };
+    key <AC04> { [ a,          A,        aacute,           Aacute ] };
+    key <AC05> { [ comma,      less,   ccedilla,         Ccedilla ] };
+    key <AC06> { [ k,          K,            oe,               OE ] };
+    key <AC07> { [ h,          H,             h,                H ] };
+    key <AC08> { [ t,          T,         thorn,            THORN ] };
+    key <AC09> { [ n,          N,        ntilde,           Ntilde ] };
+    key <AC10> { [ s,          S,        ssharp,          section ] };
+    key <AC11> { [ q,          Q,    adiaeresis,       Adiaeresis ] };
+
+    key <AB01> { [ apostrophe, quotedbl, dead_acute, dead_diaeresis ] };
+    key <AB02> { [ minus,    underscore,        yen,  dead_belowdot ] };
+    key <AB03> { [ equal,          plus,   multiply,       division ] };
+    key <AB04> { [ period,      greater, dead_abovedot,  dead_caron ] };
+    key <AB05> { [ slash,      question,  questiondown,   dead_hook ] };
+    key <AB06> { [ j,          J,    idiaeresis,         Idiaeresis ] };
+    key <AB07> { [ m,          M,            mu,               mu ] };
+    key <AB08> { [ g,          G,             g,                G ] };
+    key <AB09> { [ p,          P,    odiaeresis,       Odiaeresis ] };
+    key <AB10> { [ f,          F,             f,                F ] };
+
+    key <CAPS> { [ z,          Z,            ae,               AE ] };
+    key <RALT> { [ r,          R,    ediaeresis,       Ediaeresis ] };
+
+   include "level3(switch)"
+};
